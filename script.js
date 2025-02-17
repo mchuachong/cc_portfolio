@@ -11,6 +11,7 @@ const section2b = document.getElementById("section2b")
 const FbUrl = "https://www.facebook.com/mikeangelocc"
 const GhUrl = "https://github.com/mchuachong"
 const LiUrl = "https://www.linkedin.com/in/mike-angelo-chua-chong-981b5916b/"
+const DlUrl = "https://drive.google.com/file/d/1_mUs9xReyqmr_0e9bzw_hcdvYAIDcU9m/view?usp=sharing"
 const sliderEdu = document.querySelector(".scrollEdu")
 const sliderProj = document.querySelector(".scrollProj")
 const skills = document.querySelectorAll(".skills")
@@ -63,6 +64,9 @@ const openLi = () => {
     window.open(LiUrl,"_blank").focus()
 }
 
+const openDl = () => {
+    window.open(DlUrl,"_blank").focus()
+}
 
 //scroll observer
 const observer = new IntersectionObserver(e=>{
@@ -214,6 +218,9 @@ sect2.addEventListener("click",
                 break;
             case "gh":
                 openGh();
+                break;
+            case "dl":
+                openDl();
                 break;
             case "section2b":
                 toSect1();

@@ -191,7 +191,7 @@ h1 {
 
 #icons{
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
     gap: 1rem ;
     font-size: 2rem;
     color: white;
@@ -264,19 +264,29 @@ h1 {
 }
 
 #icons :nth-child(1){
-    transition-delay: 300ms;
+    transition-delay: 100ms;
 }
 
 #icons :nth-child(2){
-    transition-delay: 600ms;
+    transition-delay: 300ms;
 }
 
 #icons :nth-child(3){
-    transition-delay: 900ms;
+    transition-delay: 500ms;
+}
+#icons :nth-child(4){
+    transition-delay: 700ms;
 }
 
-
   #fb:hover{
+    border-bottom: 1px solid var(--accent);
+    margin-bottom: -1px;
+    border-radius: 1px;
+    transition: 100ms ease-in-out;
+    cursor:pointer;
+}
+
+#dl:hover{
     border-bottom: 1px solid var(--accent);
     margin-bottom: -1px;
     border-radius: 1px;
