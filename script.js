@@ -43,13 +43,29 @@ const skillsData = [
         "desc":""
     },
     {   "skill":"D3.js",
-        "icon":"",
+        "icon":"fa-solid fa-chart-simple",
         "desc":"Data Visualization"
     },
     {   "skill":"Bootstrap",
         "icon":"fa-brands fa-bootstrap",
         "desc":"CSS Library"
+    },
+    {
+        "skill":"Node.js",
+        "icon":"fa-brands fa-node-js",
+        "desc":""
+    },
+    {
+        "skill":"PostGre",
+        "icon":"fa-solid fa-database",
+        "desc":""
+    },
+    {
+        "skill":"MongoDB",
+        "icon":"fa-solid fa-database",
+        "desc":""
     }
+    
 ]
 //icons
 const openFb = () => {
