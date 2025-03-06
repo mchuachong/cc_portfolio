@@ -21,10 +21,6 @@ const skillsData = [
     {   "skill":"JavaScript",
         "icon":"fa-brands fa-js",
         "desc":""},
-    {   "skill":"TypeScript",
-        "icon":"",
-        "desc":""
-    },
     {   "skill":"React",
         "icon":"fa-brands fa-react",
         "desc":"JS Framework"
