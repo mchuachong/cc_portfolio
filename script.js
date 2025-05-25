@@ -11,7 +11,7 @@ const section2b = document.getElementById("section2b")
 const FbUrl = "https://www.facebook.com/mikeangelocc"
 const GhUrl = "https://github.com/mchuachong"
 const LiUrl = "https://www.linkedin.com/in/mike-angelo-chua-chong-981b5916b/"
-const DlUrl = "https://drive.google.com/file/d/1_mUs9xReyqmr_0e9bzw_hcdvYAIDcU9m/view?usp=sharing"
+const DlUrl = "https://drive.google.com/file/d/1dZon88Q7cuJWYzC_VrMCZt6Z8Os-41lL/view?usp=sharing"
 const sliderEdu = document.querySelector(".scrollEdu")
 const sliderProj = document.querySelector(".scrollProj")
 const skills = document.querySelectorAll(".skills")
